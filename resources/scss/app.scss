@@ -1,15 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
-body{
-    max-width: 1200px;
-}
+
 header{
     
     min-height: 100px;
-    background-image: url('../img/jumbotron.png');
+    
 }
 img{
-    height: 20px;
+    height: 100px;
 }
+.contenitore{
+    width: 100wh;
+    text-align: center;
+}
+.jumbotron{
+    height: 100vh;
+    width: 100%;
+    
+    text-align: center;
+    object-fit: cover;
+}
+.fumetti{
+    background-color: black;
+}
+
 
 // .row {
 //     > * {

@@ -1,14 +1,15 @@
 <main>
-    <section>
-        
-        <div class="contanier">
-            <div class="row">
-                <div class="col-2">
-                    @foreach ($comics as $comic)
-                    {{$comic['title']}}
-                    @endforeach
+   
+    <section class="fumetti d-flex flex-wrap">
+        @foreach($comics as $comic)
+           
+                <div class="card m-4" style="width: 18rem;">
+                    <img src= "Vite::asset{{$comic ['thumb']}} "  class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> {{$comic['title']}}</p>
+                    </div>
                 </div>
-            </div>
-        </div>
+           
+        @endforeach
     </section>
 </main>

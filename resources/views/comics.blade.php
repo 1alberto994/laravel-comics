@@ -12,7 +12,8 @@
     <body>
          @include('partials.header')
          @include('partials.jumbotron')
-         @include('partials.main')
+         @include('partials.main-comics')
+         
         
             <!-- <div class="container">
                 <div class="row">
