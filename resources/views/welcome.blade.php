@@ -4,15 +4,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel 9 + Bootstrap Template</title>
+        <title>Laravel comics</title>
 
-        {{-- Includiamo gli assets con la direttiva @vite --}}
-        @vite('resources/js/app.js')
+        <!-- {{-- Includiamo gli assets con la direttiva @vite --}} -->
+         @vite('resources/js/app.js')
     </head>
     <body>
-
-        <main>
-            <div class="container">
+         @include('partials.header')
+         @include('partials.main')
+        
+            <!-- <div class="container">
                 <div class="row">
                     <div class="col text-center">
 
@@ -26,8 +27,8 @@
 
                     </div>
                 </div>
-            </div>
-        </main>
+            </div> -->
+        
 
     </body>
 </html>
